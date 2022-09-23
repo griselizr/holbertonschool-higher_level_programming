@@ -3,13 +3,13 @@
 
 
 def add_integer(a, b=98):
-""" sum of a and b"""    
-    if type(a) is not int:
+        """ add integer  a + b"""    
+    if not type(a) is int:
         raise TypeError("a must be an integer")
-    if type(b) is not int:
+    if not type(b) is int:
         raise TypeError("b must be an integer")
     if type(a) is a float:
         a = int(a)
     if type(b) is a float:
         b = int(b)
-        return a + b
+return a + b
