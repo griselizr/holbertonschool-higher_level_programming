@@ -2,8 +2,10 @@
 """creating class Square"""
 
 
+
 class Square:
     """define the Square"""
+
 
 
     def __init__(self, size=0):
