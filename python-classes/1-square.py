@@ -1,7 +1,8 @@
 #!/usr/bin/python3
+"""" private attribute for size"
 Class Square:
-    """private atribute for size"""
+    """class size"""
     def __init__(self,size)
-    """instanialization of size"""
+    """instantialization of size"""
 
     self.size = size
