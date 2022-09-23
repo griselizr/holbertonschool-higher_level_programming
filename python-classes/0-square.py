@@ -2,4 +2,6 @@
 """ class square """
 class Square:
     pass
-""" Class definition: Square"""
+    """ 
+    Class definition: Square
+    """
