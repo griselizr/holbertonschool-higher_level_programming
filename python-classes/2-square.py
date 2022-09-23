@@ -8,9 +8,9 @@ class Square:
     """ Defining the square """
 
     def __init__(self, size=0):
-        "" build a square 
+        """ build a square
 
-        """ private instance size
+        private instance
         size = int
 
         if size != int 
