@@ -3,7 +3,7 @@
 
 
 def add_integer(a, b=98):
-""" add integer  a + b"""
+    """ Define add integer  a + b"""
     if not type(a) is int:
         raise TypeError("a must be an integer")
     if not type(b) is int:
