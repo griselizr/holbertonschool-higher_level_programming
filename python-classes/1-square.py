@@ -3,9 +3,9 @@
 
 
 
-Class Square:
+class Square:
     """
-    Class size
+    class size
     """
     def __init__(self,size)
     """
