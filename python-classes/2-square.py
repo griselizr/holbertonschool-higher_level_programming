@@ -11,12 +11,20 @@ class Square:
         """ build a square
 
         private instance
+
         size = int
+
+
 
         if size != int 
         TypeError
+
+
+
         if size < 0
         ValueError
+
+        
         """
 
         if not instance(size, int):
