@@ -1,6 +1,8 @@
-This is a doctext file
-    >>>matrix_divided = __import__('2-matrix_divided').matrix_divided
+import 
+matrix_divided = __import__('2-matrix_divided').matrix_divided
 
+def matrix_divided(matrix, div):
+    """
     >>>matrix_divided((4, 2), 3)
     Traceback (most recent call last):
     ...
@@ -21,3 +23,4 @@ This is a doctext file
     Traceback (most recent call last):
     ...
     TypeError:division by zero
+    """
