@@ -20,4 +20,4 @@ This is a doctext file
     >>> matrix_divided(matrix, 0)
     Traceback (most recent call last):
     ...
-    TypeError:division by zero  
+    TypeError:division by zero
