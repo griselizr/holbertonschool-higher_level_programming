@@ -1,0 +1,44 @@
+---------------------
+>>> say_my_name = __import__('3-say_my_name').say_my_name
+    >>> say_my_name("John", "Smith")
+    My name is John Smith
+
+    >>> say_my_name("John")
+    My name is John 
+
+    >>> say_my_name("", "Carlos")
+    My name is  Carlos
+
+    >>> say_my_name("Bob", "")
+    My name is Bob 
+
+    >>> say_my_name(str('Holberton'), "School")
+    My name is Holberton School
+
+    >>> say_my_name(str(27), "School")
+    My name is 27 School
+
+    >>> say_my_name(str(2.732323244), str(.9))
+    My name is 2.732323244 0.9
+
+    >>> say_my_name(434, 332)
+    TypeError: first_name must be a string
+
+    >>> say_my_name(str(2.732323244), int(.9))
+    TypeError: last_name must be a string
+    
+
+    >>> say_my_name(None)
+    TypeError: first_name must be a string
+
+    >>> say_my_name("Hello", None)
+    TypeError: last_name must be a string
+
+    >>> say_my_name({"holberton school"}, "White")
+    TypeError: first_name must be a string
+
+    >>> say_my_name()
+    TypeError: say_my_name() missing 1 required positional argument: 'first_name'
+
+    >>> say_my_name(str(2.732323244), str($$%%))
+    SyntaxError: invalid syntax
