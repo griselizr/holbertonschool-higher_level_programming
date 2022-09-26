@@ -2,7 +2,7 @@
 """ creates a rectangle"""
 
 
-class Rectangl:
+class Rectangle:
     """ Defines a rectangle"""
     number_of_instances = 0
     print_symbol = "#"
