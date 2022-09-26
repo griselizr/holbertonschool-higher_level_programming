@@ -2,7 +2,7 @@
 """ creating a rectangle """
 
 
-class Rectangl:
+class Rectangle:
     """ Define a rectangle"""
     def __init__(self, width=0, height=0):
         """ nitializes the class Rectangle"""
