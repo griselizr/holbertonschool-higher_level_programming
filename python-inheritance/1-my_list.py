@@ -1,12 +1,12 @@
 #!/usr/bin/python3
 """ 
-Creates a class MyList that inherits from list 
+Defines a class MyList that inherits from list 
 """
 
 
 class MyList(list):
     """ 
-    Define Mylist that inherits from list 
+    Defines Mylist that inherits from list 
     """
     def print_sorted(self):
     """ 
