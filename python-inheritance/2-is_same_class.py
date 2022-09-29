@@ -3,9 +3,13 @@
 
 
 def is_same_class(obj, a_class):
-    """ Define the same class as a class """
-
-
-        if type(obj) == a_class
-            return True
-        return False
+    """ verify if an object is exactly an instance of a given class.
+        obj: the object 
+        a_class (type): The class to pair with  obj to.
+    Returns:
+        If obj is exactly an instance of a_class the result is True.
+        Otherwise - False.
+    """
+    if type(obj) == a_class:
+        return True
+    return False
