@@ -10,7 +10,7 @@ class MyList(list):
     """
     def print_sorted(self):
     """ 
-    With public instance method that prints the list, but sorted (ascending sort)
+        Prints the list, but sorted in ascending order
     """
 
 
