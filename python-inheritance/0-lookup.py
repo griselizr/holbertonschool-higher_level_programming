@@ -1,7 +1,7 @@
 #!/usr/bin/python3
-""" returns  a list """"
+""" Defines attributes and methods of an object: """
 
 
 def lookup(obj):
-    """ return list""""
+    """ return list of an object"""
     return (dir(obj))
