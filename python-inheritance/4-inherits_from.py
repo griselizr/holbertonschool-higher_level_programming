@@ -1,7 +1,5 @@
 #!/usr/bin/python3
-
-def inherits_from(obj, a_class):
-    """ Defines an inherited from to a aclass """
+""" Defines an inherited from to a aclass """
 
 
 def inherits_from(obj, a_class):
