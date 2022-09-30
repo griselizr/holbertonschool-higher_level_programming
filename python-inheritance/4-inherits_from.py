@@ -1,12 +1,14 @@
 #!/usr/bin/python3
-""" Defines an inherited from to a aclass """
+"""Defines an inherited from to a aclass"""
 def inherits_from(obj, a_class):
-    """ Verify  if an object is an inherited instance of a class.
+
+
+    """ Verify  if an object is an inherited instance of a class
     Arguments:
-        obj : the object 
+        obj:the object 
         a_class (type): The class to pait the obj
     Returns:
-        If obj is an inherited instance of a_class  is True.
+        If obj is an inherited instance of a_class  is True,
         Otherwise is False.
     """
 
