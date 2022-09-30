@@ -1,7 +1,5 @@
 #!/usr/bin/python3
 """ Defines an inherited from to a aclass """
-
-
 def inherits_from(obj, a_class):
     """ Verify  if an object is an inherited instance of a class.
     Arguments:
