@@ -3,8 +3,8 @@
 
 
 def inherits_from(obj, a_class):
-    """ Verify  if an object is an inherited instance of a class
-    Arguments: obj:the object 
+    """ Verify if an object is an inherited of a class
+    obj:the object 
     a_class (type): The class to pait the obj
     Returns:
     If obj is an inherited instance of a_class  is True,
