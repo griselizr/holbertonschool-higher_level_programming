@@ -1,6 +1,7 @@
 #!/usr/bin/python3
 """Read a file"""
 
+
 def read_file(filename=""):
     """ Read the text inside the file and print"""
     
