@@ -1,5 +1,7 @@
 #!/usr/bin/python3
-"""Creates JSON serialization of an object to return 
+"""
+Creates JSON serialization of
+an object to return 
 a dictionary with list, dictionary, string, 
 integer and boolean
 """
