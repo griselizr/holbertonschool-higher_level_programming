@@ -1,5 +1,7 @@
 #!/usr/bin/python3
 """creates a square class."""
+
+
 from models.base import Base
 
 
