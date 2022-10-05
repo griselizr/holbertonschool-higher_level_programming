@@ -1,6 +1,7 @@
 #!/usr/bin/python3
 """Creates a class Rectangle"""
 
+from models.base import  Base
 
 class Rectangle(Base):
     """Defines a class rectangle""" 
@@ -8,7 +9,7 @@ class Rectangle(Base):
    
     def __init__(self, width, height, x=0, y=0, id=None): 
         """ initialization of private attributes """
-          super(id, self).__init__()
+        super().__init__(self, id)
 
         self.__width = width
         self.__height = height
