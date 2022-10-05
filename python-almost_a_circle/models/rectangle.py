@@ -3,7 +3,9 @@
 
 
 class Rectangle(Base):
-"""Defines a class rectangle"""    
+"""Defines a class rectangle""" 
+
+   
     def __init__(self, width, height, x=0, y=0, id=None): 
         """ initialization of private attributes """
           super(Base, id, self).__init__()
@@ -28,7 +30,7 @@ class Rectangle(Base):
         return self.__height
     
     @height.setter
-    def height(self, __height = height)
+    def height(self, __height = height):
         """set height """
         return self.__height = height
     
@@ -38,17 +40,17 @@ class Rectangle(Base):
         return self.__x
     
     @x.setter
-    def x(self, __x = x)
+    def x(self, __x = x):
         """ set x """
         return self.__x = x
     
     @property
-    def y(self)
+    def y(self):
         """ get y """
         return self.__y
     
     @y.setter
-    def y(self,__y = y)
-        """ set y"""
+    def y(self,__y = y):
+        """set y"""
         return self.__y = y
     
