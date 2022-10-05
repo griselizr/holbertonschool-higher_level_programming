@@ -5,6 +5,7 @@
 class Rectangle(Base):
 """Defines a class rectangle"""    
     def __init__(self, width, height, x=0, y=0, id=None): 
+        """ initialization of private attributes """
           super(Base, id, self).__init__()
         self.__width = width
         self.__height = height
