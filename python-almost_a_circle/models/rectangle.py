@@ -11,10 +11,10 @@ class Rectangle(Base):
         """ initialization of private attributes """
         super().__init__(self, id)
 
-        self.__width = width
-        self.__height = height
-        self.__x = x
-        self.__y = y
+        self.width = width
+        self.height = height
+        self.x = x
+        self.y = y
     
     @property
     def width(self):
