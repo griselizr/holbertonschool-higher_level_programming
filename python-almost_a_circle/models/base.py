@@ -6,8 +6,7 @@ import json
 
 class Base:
     """ Defines a base model"""
-    
-        #private class attribute
+        
     __nb_objects = 0
 
     def __init__(self, id=None):
