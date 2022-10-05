@@ -7,5 +7,10 @@ class Square(Rectangle):
     """Defines a square."""
 
     def __init__(self, size, x=0, y=0, id=None):
-        """Initialize a new Square."""
+        """ private instances"""
+        """ class constructor """
+        self.width = width
+        self.height = height
+        self.x = x
+        self.y = y
         super().__init__(size, size, x, y, id)
