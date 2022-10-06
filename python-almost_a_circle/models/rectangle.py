@@ -85,7 +85,7 @@ class Rectangle(Base):
         if self.height == 0:
             print(" ")
             return
-
+        """ prints height and width starting from 0"""
         for i in range(0, self.height):
             for width in range(0, self.width):
                 print("#", end="")
