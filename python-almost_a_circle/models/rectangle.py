@@ -91,3 +91,7 @@ class Rectangle(Base):
                 print("#", end="")
                 """ prints newline"""
             print()
+
+    def __str__(self):
+        """ overwrite str method"""
+        return "[Rectangle] ({}) {}/{} - {}/{}".format(self.id, self.x, self.y, self.width, self.height)
