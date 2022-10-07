@@ -88,11 +88,9 @@ class Rectangle(Base):
         """ prints height and width starting from 0"""
         for i in range(0, self.height):
             for side in range(self.x):
-                print("", end="")
+                print(" ", end="")
             for other in range(0, self.width):
                 print("#", end="")
-                """ prints newline"""
-            print()
 
     def __str__(self):
         """ overwrite str method"""
