@@ -91,6 +91,9 @@ class Rectangle(Base):
                 print(" ", end="")
             for other in range(0, self.width):
                 print("#", end="")
+                print(" ")
+                """ prints newline"""
+            print()
 
     def __str__(self):
         """ overwrite str method"""
