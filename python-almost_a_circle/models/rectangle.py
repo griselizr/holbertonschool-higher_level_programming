@@ -1,6 +1,8 @@
 #!/usr/bin/python3
 """Creates a class Rectangle"""
 
+from tkinter import Y
+from turtle import width
 from models.base import Base
 
 
@@ -92,6 +94,25 @@ class Rectangle(Base):
             for other in range(0, self.width):
                 print("#", end="")
                 """ prints newline"""
+            print()
+
+    def update(self, *args, **kwargs):
+        """Updates rectangle values
+        """
+
+        if len(kwargs) != 0:
+            for k, v in kwargs.items():
+                setattr(self, k, v)
+        elif len(args) != 0:
+            try:
+                self.id = args[0]
+                self.__width = args[1]
+                self.__height = args[2]
+                self.__x = args[3]
+                self.__y = args[4]
+            except IndexError:
+                pass
+        else:
             print()
 
     def __str__(self):
