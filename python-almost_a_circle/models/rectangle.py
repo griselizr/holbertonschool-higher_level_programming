@@ -82,12 +82,14 @@ class Rectangle(Base):
 
     def display(self):
         """ prints stdout character #"""
-        if self.height == 0:
+        for row in range(self.y):
             print(" ")
-            return
+
         """ prints height and width starting from 0"""
         for i in range(0, self.height):
-            for width in range(0, self.width):
+            for side in range(self.x):
+                print(" ", end="")
+            for other in range(0, self.width):
                 print("#", end="")
                 """ prints newline"""
             print()
