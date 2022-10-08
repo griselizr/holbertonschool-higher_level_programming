@@ -32,6 +32,7 @@ class Square(Rectangle):
                                              self.width)
 
     def update(self, *args, **kwargs):
+        """ update args & kwargs"""
         if len(kwargs) != 0:
             for k, v in kwargs.items():
                 setattr(self, k, v)
