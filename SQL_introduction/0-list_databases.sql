@@ -1,2 +1,2 @@
 --list all DATABASE in your server
-SHOW DATABASES;
+Show DATABASE;
