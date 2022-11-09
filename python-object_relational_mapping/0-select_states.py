@@ -13,12 +13,14 @@ if __name__ == "__main__":
                               port=3306,
                               user=sys.argv[1],
                               passwd=sys.argv[2],
-                              dv=sys.argv[3],
+                              db=sys.argv[3],
                               charset="utf8")
     present = connect.cursor()
-    present.execute("SELECT * FROM states ORDER by states.id ASC")
-    query_row = present.fetchall()
-    for rows in query_row:
-        print(rows)
+    present.execute("SELECT * FROM states ORDER BY id ASC")
+    query_rows = present.fetchall()
+
+    for row in query_rows:
+        print(row)
+
     present.close()
     connect.close()
