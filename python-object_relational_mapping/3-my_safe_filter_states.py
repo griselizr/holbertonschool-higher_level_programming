@@ -12,8 +12,8 @@ if __name__ == "__main__":
                               db=sys.argv[3],
                               charset="utf8")
     present = connect.cursor()
-    present.execute(
-        "SELECT * FROM states WHERE BINARY name='%s' ORDER BY id ASC"[sys.argv[4]])
+    present.execute("SELECT * FROM states WHERE \
+        BINARY name=%s ORDER BY id ASC", (sys.argv[4], ))
     query_rows = present.fetchall()
 
     for row in query_rows:
